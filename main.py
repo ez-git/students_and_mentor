@@ -184,3 +184,6 @@ print(reviewer1)
 print(student1 < lecturer1)
 print(student1 > lecturer1)
 
+students = [student1, student2]
+print(hw_average(students, 'Python'))
+print(lecturers_average([lecturer1, lecturer2], 'Python'))
